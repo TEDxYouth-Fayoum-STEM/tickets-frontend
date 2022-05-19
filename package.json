@@ -1,0 +1,51 @@
+{
+  "name": "tickets-frontend",
+  "version": "1.0.0",
+  "description": "Frontend of Tickets Initial Project",
+  "author": "Mohammed Rady",
+  "license": "MIT",
+  "main": "app.vue",
+  "scripts": {
+    "bootstrap": "husky install",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "format": "prettier",
+    "lint": "eslint",
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@nuxt/vite-builder": "^3.0.0-rc.3",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "animate.css": "^4.1.1",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.0.1",
+    "glob": "^8.0.3",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1",
+    "nuxt": "^3.0.0-rc.3",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "swiper": "^8.1.5",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.4",
+    "vite-plugin-eslint": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TEDxYouth-Fayoum-STEM/tickets-frontend.git"
+  },
+  "homepage": "https://github.com/TEDxYouth-Fayoum-STEM/tickets-frontend#readme",
+  "bugs": {
+    "url": "https://github.com/TEDxYouth-Fayoum-STEM/tickets-frontend/issues"
+  }
+}

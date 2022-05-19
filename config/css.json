@@ -1,0 +1,8 @@
+[
+  "swiper/css",
+  "swiper/css/navigation",
+  "swiper/css/pagination",
+  "animate.css/animate.min.css",
+  "@fortawesome/fontawesome-svg-core/styles.css",
+  "assets/styles/global.css"
+]
