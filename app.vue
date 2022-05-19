@@ -16,8 +16,10 @@ useHead({
       />
       <meta charset="utf-8" />
     </Head>
-    <Body>
-      <div class="text flex h-screen w-screen flex-col bg-light dark:bg-dark">
+    <Body class="">
+      <div
+        class="text flex min-h-screen w-screen flex-col bg-light dark:bg-dark"
+      >
         <FragmentHeader />
         <NuxtLayout>
           <NuxtPage />

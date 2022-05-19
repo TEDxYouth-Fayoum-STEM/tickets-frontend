@@ -42,6 +42,6 @@ onMounted(() => {
   animateTitle.value = true;
   setTimeout(() => {
     animateTitle.value = false;
-  });
+  }, 1000);
 });
 </script>

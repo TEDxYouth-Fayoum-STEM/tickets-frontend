@@ -2,7 +2,7 @@
   // https://v3.nuxtjs.org/concepts/typescript
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": "./apps",
+    "baseUrl": "./",
     "strict": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
@@ -13,6 +13,5 @@
     "noFallthroughCasesInSwitch": false,
     "allowJs": false
   },
-  "include": ["**/*"],
-  "exclude": [".yarn", "node_modules"]
+  "exclude": ["node_modules"]
 }
