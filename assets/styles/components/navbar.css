@@ -1,0 +1,11 @@
+.navbar-link:not(:first-child) {
+  @apply before:text hover:before:text ml-2 before:mr-2 before:content-["|"];
+}
+
+.navbar-link a.active {
+  @apply text-primary-200;
+}
+
+.navbar-link:not(.active) {
+  @apply hover:text-primary-200;
+}

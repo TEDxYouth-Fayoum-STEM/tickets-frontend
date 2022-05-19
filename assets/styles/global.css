@@ -1,0 +1,25 @@
+/* @import "components/btn"; */
+@import "components/navbar";
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+@tailwind variants;
+
+:root {
+  --animate-delay: 0.5s;
+  --swiper-theme-color: var(--color-primary-300);
+}
+
+body {
+  @apply box-border;
+}
+
+@layer base {
+  .text {
+    @apply text-dark dark:text-light;
+  }
+  .box {
+    @apply border bg-neutral-100 dark:bg-neutral-900;
+  }
+}
