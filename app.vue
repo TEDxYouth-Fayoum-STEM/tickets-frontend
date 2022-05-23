@@ -18,7 +18,7 @@ useHead({
     </Head>
     <Body class="">
       <div
-        class="text flex min-h-screen w-screen flex-col bg-light dark:bg-dark"
+        class="txt flex min-h-screen w-screen flex-col bg-light dark:bg-dark"
       >
         <FragmentHeader />
         <NuxtLayout>

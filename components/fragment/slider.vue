@@ -17,7 +17,13 @@
 <script lang="ts" setup>
 import { Navigation, Pagination, Autoplay } from "swiper";
 
-const slides = ["slide 1.jpg", "slide 2.jpg", "slide 3.jpg"];
+const slides = [
+  "slide 1.png",
+  "slide 2.png",
+  "slide 3.jpg",
+  "slide 4.jpg",
+  "slide 5.jpg"
+];
 const pagination = { clickable: true };
 const autoplay = { delay: 4000 };
 const speed = 1000;

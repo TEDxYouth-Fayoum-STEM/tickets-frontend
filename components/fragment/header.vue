@@ -25,8 +25,7 @@
     </div>
     <nav class="animate__animated animate__delay-2s animate__fadeIn mt-3">
       <NavbarLink to="/">Event</NavbarLink>
-      <!--NavbarLink to="/book">Book your ticket</NavbarLink-->
-      <!--NavbarLink to="/contact">Contact</NavbarLink-->
+      <NavbarLink to="/tickets">Tickets</NavbarLink>
     </nav>
   </header>
 </template>
