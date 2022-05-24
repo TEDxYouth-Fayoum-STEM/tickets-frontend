@@ -6,6 +6,12 @@ import transpiled from "./config/transpiled.json";
 const IS_PROD = process.env.NODE_ENV === "production";
 
 export default defineNuxtConfig({
+  runtimeConfig: {
+    logPwd: process.env.LOG_PWD,
+    public: {
+      api: process.env.API
+    }
+  },
   typescript: {
     strict: true
   },
