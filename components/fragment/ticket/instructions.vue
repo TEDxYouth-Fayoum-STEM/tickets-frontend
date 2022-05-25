@@ -4,7 +4,7 @@
     <ul role="list" class="flex list-decimal flex-col flex-wrap">
       <li>Fill in the form</li>
       <li>
-        Pay <Marked t="149 L.E." /> via <Marked t="We Pay: 01551800445" /> or
+        Pay <Marked t="149 L.E." /> to <Marked t="We Pay: 01551800445" /> or
         <Marked t="Vodafone Cash: 01065158294" />
       </li>
       <li>Take a screenshot of the receipt to upload it in the form</li>

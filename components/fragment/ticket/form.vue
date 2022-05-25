@@ -1,7 +1,7 @@
 <template>
   <div>
     <Marked
-      t="Book your ticket now!"
+      t="Book Your Ticket Now!"
       priority="high"
       class="select-none text-xl"
     />
@@ -17,9 +17,9 @@
       </FormSelect>
       <FormSelect id="role" l="Your Role" req>
         <option value="STEM_STUDENT">STEM Student</option>
-        <option value="STUDENT">Student</option>
-        <option value="UNDER_GRADUATE">Under Graduate</option>
-        <option value="GRADUATE">GRADUATE</option>
+        <option value="STUDENT">High-School Student</option>
+        <option value="UNDER_GRADUATE">UnderGraduate</option>
+        <option value="GRADUATE">Graduate</option>
       </FormSelect>
       <FormInput id="school_or_uni" l="School or University" req />
       <div class="mb-4 lg:col-span-2">
@@ -83,7 +83,7 @@
         id="receipt_img"
         v-model="receiptImg"
         t="file"
-        l="Receipt Picture"
+        l="Receipt Screenshot"
         req
         :e="receiptImgError"
         @change="checkReceiptImg"
