@@ -1,5 +1,5 @@
 <template>
-  <fa :icon="icon" :size="s" />
+  <fa :icon="icon" :size="s" class="fa-fw" />
 </template>
 
 <script lang="ts" setup>

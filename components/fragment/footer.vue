@@ -10,7 +10,7 @@
         <Icon
           :i="setBrandIcon(brand.i)"
           class="hover:opacity-75"
-          :class="`${brand.c}`"
+          :class="brand.c"
         />
       </a>
     </div>

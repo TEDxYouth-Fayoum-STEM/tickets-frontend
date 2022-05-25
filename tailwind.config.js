@@ -1,9 +1,8 @@
-const getContent = require("./tailwind/content");
 const extractColorsPlugin = require("./tailwind/colors-props");
 
 module.exports = {
-  content: getContent(),
-  plugins: [extractColorsPlugin, require('@tailwindcss/forms')],
+  content: ["components/**/*.vue", "pages/**/*.vue", "layouts/**/*.vue", "app.vue"],
+  plugins: [extractColorsPlugin, require("@tailwindcss/forms")],
   darkMode: "class",
   theme: {
     extend: {
@@ -28,6 +27,7 @@ module.exports = {
         sm: "600px", // 640px
         md: "645px", // 768px
         lg: "900px", // 1024px
+        "lg-f": "850px",
         xl: "1025px" // 1280px
       },
       maxWidth: {

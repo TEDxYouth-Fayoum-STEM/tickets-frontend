@@ -7,6 +7,7 @@ const IS_PROD = process.env.NODE_ENV === "production";
 
 export default defineNuxtConfig({
   runtimeConfig: {
+    log: process.env.LOG,
     logPwd: process.env.LOG_PWD,
     public: {
       api: process.env.API
@@ -19,6 +20,9 @@ export default defineNuxtConfig({
     plugins: [eslintPlugin()]
   },
   css,
+  head: {
+    script: [{ src: "https://unpkg.com/flowbite@1.4.5/dist/flowbite.js" }]
+  },
   build: {
     analyze: true,
     extractCSS: IS_PROD,

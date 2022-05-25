@@ -2,6 +2,15 @@
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library, config } from "@fortawesome/fontawesome-svg-core";
 import {
+  faClipboardUser,
+  faBox,
+  faUtensils,
+  faCircleCheck,
+  faMugHot,
+  faChalkboard,
+  faGift
+} from "@fortawesome/free-solid-svg-icons";
+import {
   faFacebookSquare,
   faInstagramSquare,
   faTwitterSquare,
@@ -12,6 +21,13 @@ import {
 config.autoAddCss = false;
 
 library.add(
+  faClipboardUser,
+  faBox,
+  faUtensils,
+  faCircleCheck,
+  faMugHot,
+  faChalkboard,
+  faGift,
   faFacebookSquare,
   faInstagramSquare,
   faTwitterSquare,

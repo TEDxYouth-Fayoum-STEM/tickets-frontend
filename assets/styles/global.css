@@ -1,5 +1,5 @@
-/* @import "components/btn"; */
 @import "components/navbar";
+@import "components/form";
 
 @tailwind base;
 @tailwind utilities;
@@ -9,6 +9,11 @@
 :root {
   --animate-delay: 0.5s;
   --swiper-theme-color: var(--color-primary-300);
+  --ms-font-size: 0.95rem;
+  --ms-max-height: 300px;
+  --ms-option-font-size: 0.95rem;
+  --ms-option-py: 0.4rem;
+  --ms-option-px: 0.75rem;
 }
 
 body {

@@ -1,10 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <Title
-      t="PERSEIDS"
-      class="animate__animated transition-all hover:grayscale hover:motion-safe:animate-pulse lg:mb-0"
-      :class="{ animate__flash: animateTitle }"
-    />
+    <Title t="PERSEIDS" />
     <div class="flex grow flex-col justify-center">
       <p>
         It's the time to start something <Marked t="new" />,
@@ -34,14 +30,3 @@
     </div>
   </div>
 </template>
-
-<script lang="ts" setup>
-const animateTitle = ref(false);
-
-onMounted(() => {
-  animateTitle.value = true;
-  setTimeout(() => {
-    animateTitle.value = false;
-  }, 1000);
-});
-</script>
