@@ -38,4 +38,5 @@ export default defineEventHandler(async ({ req, res }) => {
       });
     } catch (error) {}
   }
+  return true;
 });
